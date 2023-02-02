@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body {
+        background: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .box {
+        background: white;
+        width: 300px;
+        height: 300px;
+        /* transform: skew(25deg); */
+        transition: all 1s ease-in-out;
+      }
+
+      .box:hover {
+       transform: translateY(-100px)
+      }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
